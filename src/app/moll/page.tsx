@@ -1,25 +1,13 @@
 "use client";
 
-import Link from "next/link";
 import Image from "next/image";
 
 import { Swiper, SwiperSlide } from "swiper/react";
-import SwipeCore, { Navigation, Pagination, Autoplay } from "swiper/modules";
+import { Navigation, Pagination, Autoplay } from "swiper/modules";
 
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
-
-// export default function Page({ params }: { params: { slug: string } }) {
-//   return (
-//     <>
-//       {/* <div>dashboard: {params.slug}</div> */}
-//       <Link href={`/dashboard/${Number(params.slug) + 1}`}>
-//         Go to next page
-//       </Link>
-//     </>
-//   );
-// }
 
 /* SHOPのコンポーネント */
 const City = ({ shop, name, hiragana, link }: any) => {

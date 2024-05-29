@@ -6,7 +6,6 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 
 import { cn } from "@/lib/utils";
-// import { Icons } from "@/components/icons";
 import {
   NavigationMenu,
   NavigationMenuContent,
@@ -43,7 +42,6 @@ export default function Layout({ children }: { children: React.ReactNode }) {
     <>
       <div>
         <div className="relative flex flex-wrap bg-black px-2 py-0.5 sm:flex-nowrap  sm:justify-between sm:gap-3 sm:px-4 md:px-8">
-          {/* <div className="order-1 mb-2 inline-block w-11/12 max-w-screen-sm text-[8px] text-white sm:order-none sm:mb-0 sm:w-auto md:text-base"> */}
           <div className="max-w-screen-sm  text-white text-[8px]">
             @2024 Mouse World LLC
           </div>
@@ -78,7 +76,6 @@ export default function Layout({ children }: { children: React.ReactNode }) {
         </div>
       </div>
 
-      {/*  */}
       {/* ヘッダー */}
       <div className="flex justify-center ">
         {/* firstPageIcon */}
@@ -106,7 +103,6 @@ export default function Layout({ children }: { children: React.ReactNode }) {
                 <NavigationMenuTrigger>SHOPLIST</NavigationMenuTrigger>
                 <NavigationMenuContent>
                   <ul className="grid gap-3 p-6 md:w-[400px] lg:w-[500px] lg:grid-cols-[.75fr_1fr]">
-                    {/* <ListItem href="/moll/shop" title="YOKOHAMA"></ListItem> */}
                     <ListItem
                       href="/moll/shop/YOKOHAMA"
                       title="YOKOHAMA"
@@ -215,7 +211,6 @@ export default function Layout({ children }: { children: React.ReactNode }) {
 
       <div>
         <div className="relative flex flex-wrap bg-foo px-2 py-0.5 sm:flex-nowrap  sm:justify-center sm:gap-3 sm:px-4 md:px-8">
-          {/* <div className="order-1 mb-2 inline-block w-11/12 max-w-screen-sm text-[8px] text-white sm:order-none sm:mb-0 sm:w-auto md:text-base"> */}
           <div className="max-w-screen-sm text-sm">@2024 Mouse World LLC</div>
         </div>
       </div>

@@ -49,7 +49,7 @@ const page = () => {
             <div key={pay.id}>
               <div>
                 <Image
-                  src="/moll/news.png"
+                  src="/moll/item6.png"
                   width={180}
                   height={160}
                   alt="Picture of Character"
@@ -61,33 +61,6 @@ const page = () => {
             </div>
           ))}
         </div>
-
-        {/*         <div>
-          <div className="grid grid-cols-3 gap-4">
-            <div>
-              <Image
-                src="/moll/news.png"
-                width={180}
-                height={160}
-                alt="Picture of Character"
-              />
-              <div className="flex justify-center items-center h-10 bg-foo">
-                ミートボール with トマトソースパスタ￥1,628（税込）
-              </div>
-            </div>
-            <div>
-              <Image
-                src="/moll/news.png"
-                width={180}
-                height={160}
-                alt="Picture of Character"
-              />
-              <div className="flex justify-center items-center h-10 bg-foo">
-                ミートボール with トマトソースパスタ￥1,628（税込）
-              </div>
-            </div>
-          </div>
-        </div> */}
       </div>
     </>
   );
